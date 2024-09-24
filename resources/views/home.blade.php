@@ -6,7 +6,7 @@
         <div class="row">
             @foreach ($comicList as $comic)
             <div class="col-2 mx-auto">
-                <div>
+                <div class="image-container">
                     <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" class="img-fluid">
                 </div>
                 <p class="text-uppercase mt-3 text-white">{{$comic['series']}}</p>
