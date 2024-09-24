@@ -1,4 +1,4 @@
-<header>
+<header class="mb-4">
     <div class="bg-primary mb-4">
         <div class="container">
             <div class="row">
