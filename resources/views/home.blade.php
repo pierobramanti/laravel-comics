@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section("content")
+<div class="bg-hero">
+</div>
 <div class="bg-dark">
 <div class="pt-5">
     <div class="container">

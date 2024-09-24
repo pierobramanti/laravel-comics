@@ -1,5 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
+// Jumbo //
 
+.bg-hero {
+    background-image: url("../img/jumbotron.jpg");
+    background-size: cover;
+    height: 400px;
+}
 
 // Home style//
 .image-container {
