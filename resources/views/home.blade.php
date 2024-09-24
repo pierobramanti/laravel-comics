@@ -9,13 +9,13 @@
                 <div>
                     <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" class="img-fluid">
                 </div>
-                <p class="text-uppercase text-white mt-3"></p>
+                <p class="text-uppercase mt-3 text-white">{{$comic['series']}}</p>
             </div>
             @endforeach
             
             <div class="col-12">
                 <div class="d-flex justify-content-center my-4">
-                    <button class="btn text-uppercase fw-bold text-white rounded-0">Load More</button>
+                    <button class="btn btn-sm btn-primary text-uppercase fw-bolder text-white rounded-0 px-4 py-2">Load More</button>
                 </div>
             </div>
         </div>
